@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It allowed us to see how the new file was different from the old one and determine 
+    if these changes were intentional or were something that had creeped in 
+    unintentionally and were causing the bug. This method was particularly fast 
+    because we were sure that the bug did not exist in the old version so it could
+    only have been introduced by one of the changes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It could allow us to see common mistakes that we make and avoid them in future projects. 
+    It would also allow us to see the big picture and see how our project developed over time 
+    and what could have been done differently.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros- Commits will have a single logical purpose.
+    	  
+    	  We can choose the amount of change in one commit using our discretion.
+    	  
+    	  Autmatic saving might make many commits logically incorrect since the 
+    	  computer deosn't know when a particlar feature has been completed or a bug has been fixed.
+    	  
+    	  Also, automatic saving might create too few or too many commits which might 
+    	  be unnecessary for a given feature or bug fix.
+   	Cons- 
+   		  Extra effort required to manually save commits.
+   		  Humar error migh tbe introduced. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Since different use cases have different needs, Systems catering to a coding paradigm 
+    and others in which multiple file saving is very useful might take a snapshot of multiple
+    files per commit. Others like Google Docs, which pertain to general text editing might
+    not save multiple files since in this case, the files are usually unrelated to each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    We can use git log to find out the IDs of the commits that have been made and then we can 
+    use git diff to compare the code between them to find out what has been changed.
+    This allows us to easily find out the entire history of a file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Since now we know that it is trivial to go back to a previous version of a code, we will be
+    less afraid to make an error since finding and fixing that error will just be a matter of finding out
+    the ID of the commit that introduced the bug and using git diff to find out the code that caused the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git for managing my small projects in order to experience the full power of version
+    control systems. 
