@@ -7,4 +7,8 @@ with your remote repository?
 	Because if you're working on a feature, you might not want to mess it up by Git autmatically pulling
 	from GitHub where someone else in your team might have made a change. 
 
-	
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	You fork someone else's repository within the GitHub paradigm. It has no meaning outside of GitHub.
+	You make a branch in your OWN repository as a means to add some new features without disturbing production 
+	code.
+	You clone any repository that is remote or on your own machine. This creates a copy of that repository. 
